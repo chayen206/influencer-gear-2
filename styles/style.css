@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* share style */
+:root{
+ --header-fnt:1rem;
+ --hfont-clr:rgba(58, 58, 58, 1);
+  --hfont-weight:600;
+}
+.btn-primary{
+  color: rgba(255, 255, 255, 1);
+
+font-size: 16px;
+font-weight: 700;
+border-radius: 41px;
+background: rgba(224, 44, 109, 1);
+padding: 10px 24px 10px 24px;
+border: none;
+
+}
+/* sponser styles */
+.sponser{
+  max-width: 1030px;
+  margin: 0px auto;
+}
+.sponser-continer{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+/* banner style */
+.banner-img-div{
+  background-image: url('../images/Circle.svg');
+  min-height: 414px;
+  min-width: 440px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.banner-img{
+  width: 100%;
+}
+.banner{
+  max-width: 1030px;
+  margin: 40px auto;
+}
+.btn-div{
+  margin-top: 20px;
+}
+
+.banner-continer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.banner-description{
+  font-size: var(--header-fnt);
+  font-weight: var(--hfont-weight);
+  color: var(--hfont-clr);
+  margin-top: 10px;
+}
+.banner-heading{
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: #3A3A3A;
+}
+
+/* nav style */
+ 
+nav{
+  display: flex;
+  justify-content: space-between;
+max-width: 1040px;
+margin: 0px auto;
+margin-top: 40px;
+}
+nav>ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.ancor{
+  text-decoration: none;
+  font-size: var(--header-fnt);
+  color: var(--hfont-clr);
+  font-weight: var(--hfont-weight);
+  
+}
