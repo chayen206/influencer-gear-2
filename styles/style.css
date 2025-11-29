@@ -24,6 +24,61 @@ padding: 10px 24px 10px 24px;
 border: none;
 
 }
+/* card-menu style */
+.card-continer{
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3,1fr);
+}
+.star-div{
+ display: flex;
+ align-items: center;
+ gap: 8px;
+}
+.card-img-div>img{
+  width: 100%;
+}
+.card-description{
+    font-size: 0.9rem;
+  font-weight: bold;
+  color: rgba(120, 120, 133, 1);
+}
+.card{
+  min-width: 300px;
+  min-height: 450px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 17px 15px;
+  border-radius: 5px;
+}
+.star-span{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgba(94, 99, 102, 1);
+}
+.card-doller{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.card-headline{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(24, 25, 31, 1);
+  display: block;
+}
+.card-heading{
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--hfont-clr);
+  font-weight: var(--hfont-weight);
+  margin-bottom: 30px;
+}
+.card-menu{
+  max-width: 1050px;
+  margin: 0px auto;
+ margin-top: 80px;
+}
 /* sponser styles */
 .sponser{
   max-width: 1030px;
